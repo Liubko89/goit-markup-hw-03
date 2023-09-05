@@ -285,6 +285,7 @@ a {
 
 .portfolio-list-item {
   display: flex;
+  width: calc(100% / 3);
   flex-direction: column;
   padding-bottom: 32px;
 }
