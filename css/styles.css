@@ -46,6 +46,7 @@ a {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
@@ -63,7 +64,7 @@ a {
   padding: 24px 0;
 }
 
-.header-nav-container {
+.header-nav {
   display: flex;
   align-items: center;
   gap: 76px;
