@@ -189,11 +189,6 @@ a {
   justify-content: center;
 }
 
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
 .advantages-menu {
   display: flex;
   gap: 24px;
