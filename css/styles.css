@@ -39,6 +39,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section {
   padding: 120px 0;
 }
@@ -59,7 +65,6 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-nav {
@@ -86,7 +91,6 @@ a {
 .header-nav-menu {
   display: flex;
   gap: 40px;
-  margin-right: 24px;
 }
 
 .link-navigation {
@@ -109,6 +113,7 @@ a {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-menu {
@@ -138,12 +143,7 @@ a {
 .hero-section {
   background-color: var(--dark);
   padding: 188px 0;
-}
-
-.hero-container-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .hero-heading {
@@ -154,7 +154,7 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -210,8 +210,6 @@ a {
 }
 
 .advantsges-menu-item {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -234,12 +232,6 @@ a {
 
 .our-team-section {
   background-color: var(--light);
-}
-
-.our-team-container-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .our-team-heading {
@@ -294,12 +286,6 @@ a {
 
 /* Our portfolio section */
 
-.portfolio-container-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .portfolio-heading {
   color: var(--dark);
   text-align: center;
@@ -324,12 +310,6 @@ a {
 
 .portfolio-menu-item:nth-child(3n + 3) {
   margin-right: 0;
-}
-
-.img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
 }
 
 .portfolio-description {
